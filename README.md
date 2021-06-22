@@ -17,7 +17,8 @@ So the package can be used and mixed with any JDK version runtime supporting the
 ## Following steps are performed by the Maven build of this package
 1. Download the original code from [OpenJDK on Github](https://github.com/openjdk)<br>
    e.g.: [Zipped release 8u144 b34](https://github.com/openjdk/jdk8u/archive/refs/tags/jdk8u144-b34.zip) 
-2. Copy all folders beyond `[Unpacked JDK source code folder]/jaxp/src/com/sun`  into `[project root]/openjdk8-jaxp-external/src-gen/jaxp/jdk8u/jaxp`
+2. Copy all folders beyond `[Unpacked JDK source code folder]/jaxp/src/com/sun`  into<br/>
+   `[project root]/openjdk8-jaxp-external/src-gen/jaxp/jdk8u/jaxp`<br/>
    Should look like this:<br/>
    ```
    /
