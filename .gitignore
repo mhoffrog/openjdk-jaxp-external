@@ -1,4 +1,7 @@
 target/
+downloads/
+bin/
+logs/
 pom.xml.tag
 pom.xml.releaseBackup
 pom.xml.versionsBackup
@@ -9,3 +12,13 @@ buildNumber.properties
 .mvn/timing.properties
 # https://github.com/takari/maven-wrapper#usage-without-binary-jar
 .mvn/wrapper/maven-wrapper.jar
+*.bak
+*.fbExcludeFilterFile
+*.log
+*.log~*
+*.pmd
+.checkstyle
+.pmdruleset.xml
+.project
+.settings
+.classpath
