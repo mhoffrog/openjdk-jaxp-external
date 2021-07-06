@@ -6,7 +6,13 @@ The version number will reflect the corresponding original JDK version.
 ## Purpose
 Regarding XML file transformation and output rendering there did have been incompatibilities between JDK versions in the past.<br/>
 See: [JDK packaged JAXP transformer indent no longer working in OpenJDK 11](https://mail.openjdk.java.net/pipermail/jdk-dev/2019-May/002818.html).<br/>
-As the JAXP pacakage is bundled as an internal package within the JDKs runtime library, it cannot simply be replaced or overloaded by another version or a former implementation.
+Since the JAXP pacakage is bundled as an internal package within the JDKs runtime library, it cannot simply be replaced or overloaded by another version or a former implementation.<br/>
+Further sources of information:<br/>
+&emsp;[Xerces Update: Move to Xalan based DOM L3 serializer. Deprecate Xerces' native serializer.](https://bugs.openjdk.java.net/browse/JDK-8035467)<br/>
+&emsp;[LSSerializer pretty print does not work anymore. regression?](https://bugs.openjdk.java.net/browse/JDK-8087303)<br/>
+&emsp;[Regression in XML Transform caused by JDK-8087303 [1]](https://bugs.openjdk.java.net/browse/JDK-8174025)<br/>
+&emsp;[Regression in XML Transform caused by JDK-8087303 [2]](https://bugs.openjdk.java.net/browse/JDK-8175629)<br/>
+&emsp;[Transform filtered through SAX filter mishandles character entities](https://bugs.openjdk.java.net/browse/JDK-8237456)<br/>
 
 
 ## Solution
